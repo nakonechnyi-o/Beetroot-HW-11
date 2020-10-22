@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 52px;
+    color: slateblue;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 300px;
+}
+
+.item {
+    margin: 20px;
+    padding: 10px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+}
