@@ -3,26 +3,56 @@ body {
 }
 
 .container {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    margin-top: -20px;
+}
+
+.round {
+    margin-top: -50px;
+    width: 100px; 
+    height: 100px;
+    background: rgb(75,167,228);
+    background: linear-gradient(54deg, rgba(75,167,228,1) 0%, rgb(93, 37, 198) 100%);
+    border-radius: 50%;   
+}
+
+.round-white{
+    border: solid whitesmoke;
+    padding: 25px;
+    margin: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .window{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     border-radius: 20px;
     background-color: #353a45;
     width: 666px;
-    height: 383px;
+    height: auto;
+    position: relative;
 }
 
-.form {
-display: flex;
-flex-direction: column;
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 #newsletter {
@@ -70,4 +100,25 @@ flex-direction: column;
 
 #newsletter, #text, #email, .button {
     font-family: Lato, sans-serif;
+}
+
+i {
+    color: white;
+    font-size: 50px;
+}
+
+.close i {
+    color: #444d63;
+}
+
+.close i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: lime;
+    font-style: bold;
+    cursor: pointer;
+
 }
